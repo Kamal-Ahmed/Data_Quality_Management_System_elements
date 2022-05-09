@@ -1,0 +1,869 @@
+<!--<!DOCTYPE html xmlns:xlink="http://www.w3.org/1999/xlink">-->
+<!DOCTYPE html>
+<title>DQMS elements - v.1.0</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="" />
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection"/>
+</head>
+
+<body>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script type="application/json" id="DQ">
+
+    {
+        "nodes": [{
+                "name": "Data Quality Policy",
+                "group": 0,
+                "category": "Strategic",
+                "subcategory": "-",                
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_quality_policy"
+            },
+            {
+                "name": "Awareness of Data Quality",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "People",                
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/awareness_of_data_quality"
+            },
+            {
+                "name": "Data Quality Stakeholder Analysis",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Stakeholders",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/stakeholder_analysis"
+            },
+            {
+                "name": "Data Suppliers",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Stakeholders",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_suppliers"
+            },
+            {
+                "name": "Data Quality Objectives",
+                "group": 0,
+                "category": "Strategic",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Quality Management System",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {	"name": "Data Quality Requirements",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Defining Metadata",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Design Process",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Processes",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Quality Rules",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Metadata",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_quality_rules"
+            },
+            {
+                "name": "Critical Data Elements",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Metadata",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/critical_data_elements"
+            },
+            {
+                "name": "Data Cleansing",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Data Quality Improvement",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_cleansing"
+            },
+            {
+                "name": "Data Issues",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Data Quality Improvement",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_issues"
+            },
+            {
+                "name": "Monitoring Data Quality",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Data Quality Improvement",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_quality_monitoring"
+            },
+            {
+                "name": "Data Quality Program",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Entry Process",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Quality Service Level Agreement",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Profiling",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Data Quality Improvement",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Stewards",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Correction",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Preventive Action",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Corrective Action",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Lineage",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Metadata",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_integration_and_interoperability/data_lineage"
+            },
+            {
+                "name": "Incident Tracking System",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Cleansing Methods",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Quality",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Quality Dimensions",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Roles and Responsibilities",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "People",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Metadata",
+                "group": 2,
+                "category": "Operational",
+                "subcategory": "Metadata",
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/metadata"
+            },
+            {
+                "name": "Business Rule",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Database or Application",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Staff competence",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "People",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Risk analysis",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Analysis",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Internal Audit",
+                "group": 0,
+                "category": "Strategic",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Communication about Data Quality",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Stakeholders",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Leadership",
+                "group": 0,
+                "category": "Strategic",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Security",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Consumers",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            },
+            {
+                "name": "Data Delivery Agreement",
+                "group": 3,
+                "category": "-",
+                "subcategory": "-",
+                "wiki_link": "https://"
+            }
+        ],
+        "links": [{
+                "source": 0,
+                "target": 7,
+                "value": 1
+            },
+            {
+                "source": 0,
+                "target": 1,
+                "value": 1
+            },
+            {
+                "source": 0,
+                "target": 2,
+                "value": 1
+            },
+            {
+                "source": 0,
+                "target": 3,
+                "value": 1
+            },
+            {
+                "source": 0,
+                "target": 4,
+                "value": 1
+            },
+            {
+                "source": 0,
+                "target": 5,
+                "value": 1
+            },
+            {
+                "source": 6,
+                "target": 7,
+                "value": 1
+            },
+            {
+                "source": 8,
+                "target": 7,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 4,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 9,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 1,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 10,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 11,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 12,
+                "value": 1
+            },
+            {
+                "source": 7,
+                "target": 13,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 14,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 15,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 16,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 17,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 18,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 19,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 20,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 21,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 22,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 23,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 9,
+                "value": 1
+            },
+            {
+                "source": 12,
+                "target": 11,
+                "value": 1
+            },
+            {
+                "source": 4,
+                "target": 10,
+                "value": 1
+            },
+            {
+                "source": 0,
+                "target": 10,
+                "value": 1
+            },
+            {
+                "source": 2,
+                "target": 10,
+                "value": 1
+            },
+            {
+                "source": 10,
+                "target": 9,
+                "value": 1
+            },
+            {
+                "source": 10,
+                "target": 11,
+                "value": 1
+            },
+            {
+                "source": 11,
+                "target": 12,
+                "value": 1
+            },
+            {
+                "source": 11,
+                "target": 24,
+                "value": 1
+            },
+            {
+                "source": 11,
+                "target": 25,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 11,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 10,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 12,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 26,
+                "value": 1
+            },
+            {
+                "source": 27,
+                "target": 13,
+                "value": 1
+            },
+            {
+                "source": 9,
+                "target": 28,
+                "value": 1
+            },
+            {
+                "source": 9,
+                "target": 29,
+                "value": 1
+            },
+            {
+                "source": 9,
+                "target": 30,
+                "value": 1
+            },
+            {
+                "source": 9,
+                "target": 26,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 31,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 0,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 27,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 32,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 4,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 33,
+                "value": 1
+            },
+            {
+                "source": 1,
+                "target": 34,
+                "value": 1
+            },
+            {
+                "source": 35,
+                "target": 1,
+                "value": 1
+            },
+            {
+                "source": 2,
+                "target": 0,
+                "value": 1
+            },
+            {
+                "source": 2,
+                "target": 4,
+                "value": 1
+            },
+            {
+                "source": 22,
+                "target": 10,
+                "value": 1
+            },
+            {
+                "source": 22,
+                "target": 28,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 12,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 12,
+                "value": 1
+            },
+            {
+                "source": 13,
+                "target": 3,
+                "value": 1
+            },
+            {
+                "source": 3,
+                "target": 36,
+                "value": 1
+            },
+            {
+                "source": 3,
+                "target": 37,
+                "value": 1
+            },
+            {
+                "source": 3,
+                "target": 37,
+                "value": 1
+            },
+            {
+                "source": 3,
+                "target": 38,
+                "value": 1
+            }
+        ]
+    }
+
+</script>
+
+<div class="main_title">Data Quality Management System: categories of elements and their relationships</div>
+<div class="instruction">
+    <p>Hovering the mouse over a circle (node) reveals information about that node.
+       Clicking on a node toggles on/off all its related nodes and links. Clicking and dragging a node moves that node.</p>
+</div>
+
+<div class="frame_legend">
+    <div class="dot1">
+        <div class="t1">Strategic</div>
+    </div>
+
+    <div class="dot2">
+        <div class="t2">Tactical</div>
+    </div>
+        
+    <div class="dot3">
+        <div class="t3">Operational</div>
+    </div>
+    
+    <div class="dot4">
+        <div class="t4">Supporting/Uncategorised</div>
+    </div>    
+</div>
+
+<div id="chart" align="center"></div>
+<br/>
+<div class="logo"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><span id="dama-nl">Stichting DAMA-NL, The Netherlands, 2022. This work is licensed under</span><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><span id="cc-attribution">Creative Commons Attribution 4.0 International License.</span></a>
+  </div>
+
+<script>
+
+//Constants for the SVG
+var width = 1200,
+    height = 640;
+
+//Set up the colour scale
+var color = d3.scale.category20();
+
+//Set up the force layout
+var force = d3.layout.force()
+    .charge(-1000)
+    .linkDistance(80)
+    .size([width, height]);
+        
+    var drag = force.drag()
+      .on("dragstart", function(d) {
+		d3.event.sourceEvent.stopPropagation();
+      });
+
+//Append a SVG to the body of the html page. Assign this SVG as an object to svg
+var svg = d3.select("#chart").append("svg")
+        
+    .attr("width", width)
+    .attr("height", height)
+    .attr("style", "outline: thin solid lightgrey;")    
+
+    //--- zoom behaviour: ----
+    .call(d3.behavior.zoom().scaleExtent([-1, 2]).on("zoom", function () {
+    svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+  }))
+  .append("g") //consider all elements as grouped
+ 
+//Read the data from the DQ element:
+var DQ = document.getElementById('DQ').innerHTML;
+graph = JSON.parse(DQ);
+
+//Creates the graph data structure out of the json data
+force.nodes(graph.nodes)
+    .links(graph.links)
+    .start();
+
+//Create all the line svgs but without locations yet
+var link = svg.selectAll(".link")
+    .data(graph.links)
+    .enter().append("line")
+    .attr("class", "link")
+    .style("stroke-width", function (d) {
+    return Math.sqrt(d.value);
+});
+
+var node = svg.selectAll(".node")
+    .data(graph.nodes)    
+    .enter().append("circle")
+    .attr("class", "node")    
+    .attr("r", 8)    
+    .style("fill", function (d) {
+    return color(d.group);
+})
+
+.on("mouseover", function(d) {
+    
+    div.transition()
+				.duration(3000)				
+                .style("opacity", 0);
+                div.transition()
+				.duration(3000)
+				.style("opacity", .9);
+			
+            div .html(
+                "<table>" +                    
+                    "<tr>" +
+                        "<td>" + "<strong>" + "Node name: " + "</strong>" + "</td>" +
+                        "<td>" + d.name + "</td>" +
+                    "</tr>" +
+                    "<tr>" +
+                        "<td>" + "<strong>" + "Category: " + "</strong>" + "</td>" +
+                        "<td>" + d.category + "</td>" +
+                    "</tr>" +
+                    "<tr>" +
+                        "<td>" + "<strong>" + "Sub-category: " + "</strong>" + "</td>" +
+                        "<td>" + d.subcategory + "</td>" +
+                    "</tr>" +                    
+                    "<tr>" +
+                        "<td>" + "<strong>" + "Wiki source: " + "</strong>" + "</td>" +
+                        "<td id=2>" + "<a href=" + d.wiki_link + " target='_blank'>" + "Link" + "</a>" + "</td>" +
+                    "</tr>" +
+                "</table>"     
+                            
+            )
+				.style("left", (d3.event.pageX + 12) + "px")	//+28		 
+				.style("top", (d3.event.pageY + 8) + "px")     //-52       
+			})
+            .call(force.drag)
+            .on('click', connectedNodes)
+
+.on("mouseleave", function() {		
+    div.transition().delay(3000).duration(2000).style("opacity", 0);             
+});
+
+var text = svg.append("g").selectAll("text")
+    .data(graph.nodes)
+    .enter()
+    .append("text")
+    .attr("class","text_settings")    
+    .attr("x", 6) //8
+    .attr("y", ".31em") //.31em
+    .text(function(d) { return d.name; })
+
+    .on('mouseleave', function(){
+
+        node.transition().duration(1000).style("opacity", 1);
+        link.transition().duration(1000).style("stroke","rgba(153, 153, 153,1)").style("opacity", 1);
+        text.transition().duration(1000).style("opacity", 1);
+        toggle = 0;
+                
+    });
+
+force.on("tick", function () {
+    link.attr("x1", function (d) {
+        return d.source.x;
+    })
+        .attr("y1", function (d) {
+        return d.source.y;
+    })
+        .attr("x2", function (d) {
+        return d.target.x;
+    })
+        .attr("y2", function (d) {
+        return d.target.y;
+    });
+
+    node.attr("cx", function (d) {
+        return d.x;
+    })
+        .attr("cy", function (d) {
+        return d.y;
+    });
+
+    
+    d3.selectAll("text").attr("x", function (d) {
+        return (d.x + 10); //10
+    })
+        .attr("y", function (d) {
+        return (d.y + 4); //4
+    });
+    
+});
+
+
+//Toggle stores whether the highlighting is on
+var toggle = 0
+
+//Create an array logging what is connected to what
+var linkedByIndex = {};
+
+for (i = 0; i < graph.nodes.length; i++) {
+    linkedByIndex[i + "," + i] = 1;
+};
+
+graph.links.forEach(function (d) {
+    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+    //console.log(linkedByIndex);
+});
+
+//This function looks up whether a pair form neighbours  
+function neighboring(a, b) {
+    return linkedByIndex[a.index + "," + b.index];
+}
+
+//Determine the names of the nodes to keep:
+
+function connectedNodes() {
+
+    if (toggle == 0) {
+        //Reduce the opacity of all but the neighbouring nodes
+        d = d3.select(this).node().__data__;
+        node.transition().duration(750).style("opacity", function (o) {
+            
+            if (neighboring(d, o) | neighboring(o, d))
+            { return 1; } //show all nodes
+            
+            else
+
+            {return 0.1; } //reduce opacity of nodes
+
+        });
+        
+        text.transition().duration(750).style("opacity", function (o) {
+            
+            if (neighboring(d, o) | neighboring(o, d))
+            { return 1; }  //show all labels of nodes      
+                        
+            else
+
+            {return 0.1; } //reduce opacity of labels       
+            
+        });
+                
+        link.transition().duration(750).style("stroke","rgba(255,0,0,1)").style("opacity", function (o) {
+            return d.index==o.source.index | d.index==o.target.index ? 1 : 0.1;
+        });
+        
+                        
+        toggle = 1;
+
+    } else {
+        //Put them back to opacity=1
+        node.transition().duration(750).style("opacity", 1);
+        link.transition().duration(750).style("stroke","rgba(153, 153, 153,1)").style("opacity", 1);
+        text.transition().duration(750).style("opacity", 1);
+        
+        toggle = 0;
+    }
+
+}
+
+// Define 'div' for tooltips
+var div = d3.select("body")
+	.append("div") // declare the tooltip div 
+	.attr("class", "tooltip") // apply the 'tooltip' class
+	.style("opacity", 0); // set the opacity to zero
+
+
+</script>
+
+</body>
+</html>
