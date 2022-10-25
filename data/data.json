@@ -41,7 +41,8 @@
                 "subcategory": "-",
                 "wiki_link": "-"
             },
-            {   "name": "Data Quality Requirements",
+            {   
+				"name": "Data Quality Requirements",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
@@ -185,7 +186,7 @@
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "People",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/roles_and_responsibilities"
             },
             {
                 "name": "Metadata",
@@ -270,8 +271,28 @@
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
                 "wiki_link": "-"
+            },
+            {
+                "name": "Data Quality Team",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Data Processes",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Processes",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Continuous Improvement",
+                "group": 1,
+                "category": "Tactical",
+                "subcategory": "Processes",
+                "wiki_link": "-"
             }
-
         ],
         "links": [{
                 "source": 0,
@@ -652,6 +673,61 @@
                 "source": 27,
                 "target": 8,
                 "value": 1
-            }
+            },
+            {
+                "source": 26,
+                "target": 39,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 40,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 41,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 1,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 12,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 8,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 9,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 16,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 11,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 33,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 10,
+                "value": 1
+            }			
         ]
     }
