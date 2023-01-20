@@ -1,3 +1,4 @@
+
 {
         "nodes": [{
                 "name": "Data Quality Policy",
@@ -292,7 +293,49 @@
                 "category": "Tactical",
                 "subcategory": "Processes",
                 "wiki_link": "-"
-            }
+            },
+            {
+                "name": "Chief Data Officers",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Data Owners",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Data Custodians",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Data Analysts",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Data Quality Analysts",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            },
+            {
+                "name": "Data Protection Officers",
+                "group": 3,
+                "category": "Supporting/Uncategorised",
+                "subcategory": "-",
+                "wiki_link": "-"
+            }			
         ],
         "links": [{
                 "source": 0,
@@ -324,7 +367,7 @@
                 "target": 2,
                 "value": 1
             },
-		{
+			{
                 "source": 0,
                 "target": 5,
                 "value": 1
@@ -727,6 +770,51 @@
             {
                 "source": 26,
                 "target": 10,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 3,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 17,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 36,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 42,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 43,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 44,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 45,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 46,
+                "value": 1
+            },
+            {
+                "source": 26,
+                "target": 47,
                 "value": 1
             }			
         ]
