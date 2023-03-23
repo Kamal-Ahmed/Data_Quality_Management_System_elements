@@ -1,95 +1,94 @@
-
 {
         "nodes": [{
                 "name": "Data Quality Policy",
                 "group": 0,
                 "category": "Strategic",
                 "subcategory": "-",                
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_quality_policy"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_quality_policy"
             },
             {
                 "name": "Awareness of Data Quality",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "People",                
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/awareness_of_data_quality"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/awareness_of_data_quality"
             },
             {
                 "name": "Stakeholder Analysis",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "Stakeholders",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/stakeholder_analysis"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/stakeholder_analysis"
             },
             {
-                "name": "Data Suppliers",
+                "name": "Data Supplier",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "Stakeholders",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_suppliers"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_supplier"
             },
             {
                 "name": "Data Quality Objectives",
                 "group": 0,
                 "category": "Strategic",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_quality_objective"
             },
             {
                 "name": "Data Quality Management System",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/overview/overview_data_quality_management_system"
             },
             {   
 				"name": "Data Quality Requirements",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_quality_requirement"
             },
             {
                 "name": "Defining Metadata",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_concept/defining_metadata"
             },
             {
                 "name": "Data Quality Rules",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Metadata",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_quality_rules"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_quality_rule"
             },
             {
                 "name": "Critical Data Elements",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Metadata",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/critical_data_elements"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/critical_data_element"
             },
             {
                 "name": "Data Cleansing",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Data Quality Improvement",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_cleansing"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_cleansing"
             },
             {
                 "name": "Data Issues",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Data Quality Improvement",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_issues"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_issue"
             },
             {
                 "name": "Data Quality Monitoring",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Data Quality Improvement",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/data_quality_monitoring"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_quality_monitoring"
             },
             {
                 "name": "Data Quality Program",
@@ -124,35 +123,35 @@
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/role/data_steward"
             },
             {
                 "name": "Correction",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_general/correction"
             },
             {
                 "name": "Preventive Action",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_general/preventive_action"
             },
             {
                 "name": "Corrective Action",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_general/corrective_action"
             },
             {
                 "name": "Data Lineage",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Metadata",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_integration_and_interoperability/data_lineage"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_lineage"
             },
             {
                 "name": "Incident Tracking System",
@@ -172,7 +171,7 @@
                 "name": "Data Quality",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
-                "subcategory": "-",
+                "subcategory": "https://datamanagement.wiki/data_quality_general/data_quality",
                 "wiki_link": "-"
             },
             {
@@ -180,21 +179,21 @@
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/overview/overview_data_quality_dimension"
             },
             {
                 "name": "Roles and Responsibilities",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "People",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/roles_and_responsibilities"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/roles_and_responsibilities"
             },
             {
                 "name": "Metadata",
                 "group": 2,
                 "category": "Operational",
                 "subcategory": "Metadata",
-                "wiki_link": "https://datamanagement.wiki/data_management/data_quality/metadata"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/metadata"
             },
             {
                 "name": "Business Rule",
@@ -211,39 +210,39 @@
                 "wiki_link": "-"
             },
             {
-                "name": "Staff competence",
+                "name": "Competence of Staff",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "People",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/competence_of_staff"
             },
             {
                 "name": "Risk analysis",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "Analysis",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/general_term/risk_analysis"
             },
             {
                 "name": "Internal Audit",
                 "group": 0,
                 "category": "Strategic",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/internal_audit"
             },
             {
-                "name": "Communication about Data Quality",
+                "name": "Data Quality Communication",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "Stakeholders",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_quality_communication"
             },
             {
                 "name": "Leadership",
                 "group": 0,
                 "category": "Strategic",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/leadership"
             },
             {
                 "name": "Data Security",
@@ -253,11 +252,11 @@
                 "wiki_link": "-"
             },
             {
-                "name": "Data Consumers",
+                "name": "Data Consumer",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/role/data_consumer"
             },
             {
                 "name": "Data Delivery Agreement",
@@ -271,7 +270,7 @@
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_concept/operational_metadata"
             },
             {
                 "name": "Data Quality Team",
@@ -285,57 +284,15 @@
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "Processes",
-                "wiki_link": "-"
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/data_process"
             },
             {
-                "name": "Continuous Improvement",
+                "name": "Continual Improvement",
                 "group": 1,
                 "category": "Tactical",
                 "subcategory": "Processes",
-                "wiki_link": "-"
-            },
-            {
-                "name": "Chief Data Officers",
-                "group": 3,
-                "category": "Supporting/Uncategorised",
-                "subcategory": "-",
-                "wiki_link": "-"
-            },
-            {
-                "name": "Data Owners",
-                "group": 3,
-                "category": "Supporting/Uncategorised",
-                "subcategory": "-",
-                "wiki_link": "-"
-            },
-            {
-                "name": "Data Custodians",
-                "group": 3,
-                "category": "Supporting/Uncategorised",
-                "subcategory": "-",
-                "wiki_link": "-"
-            },
-            {
-                "name": "Data Analysts",
-                "group": 3,
-                "category": "Supporting/Uncategorised",
-                "subcategory": "-",
-                "wiki_link": "-"
-            },
-            {
-                "name": "Data Quality Analysts",
-                "group": 3,
-                "category": "Supporting/Uncategorised",
-                "subcategory": "-",
-                "wiki_link": "-"
-            },
-            {
-                "name": "Data Protection Officers",
-                "group": 3,
-                "category": "Supporting/Uncategorised",
-                "subcategory": "-",
-                "wiki_link": "-"
-            }			
+                "wiki_link": "https://datamanagement.wiki/data_quality_management_system/continuous_improvement"
+            }
         ],
         "links": [{
                 "source": 0,
@@ -367,7 +324,7 @@
                 "target": 2,
                 "value": 1
             },
-			{
+		{
                 "source": 0,
                 "target": 5,
                 "value": 1
@@ -770,51 +727,6 @@
             {
                 "source": 26,
                 "target": 10,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 3,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 17,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 36,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 42,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 43,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 44,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 45,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 46,
-                "value": 1
-            },
-            {
-                "source": 26,
-                "target": 47,
                 "value": 1
             }			
         ]
