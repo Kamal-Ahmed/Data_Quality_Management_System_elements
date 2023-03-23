@@ -42,7 +42,7 @@
                 "wiki_link": "https://datamanagement.wiki/overview/overview_data_quality_management_system"
             },
             {   
-				"name": "Data Quality Requirements",
+		"name": "Data Quality Requirements",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
                 "subcategory": "-",
@@ -171,8 +171,8 @@
                 "name": "Data Quality",
                 "group": 3,
                 "category": "Supporting/Uncategorised",
-                "subcategory": "https://datamanagement.wiki/data_quality_general/data_quality",
-                "wiki_link": "-"
+                "subcategory": "-",
+                "wiki_link": "https://datamanagement.wiki/data_quality_general/data_quality"
             },
             {
                 "name": "Data Quality Dimensions",
