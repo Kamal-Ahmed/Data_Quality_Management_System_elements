@@ -23,7 +23,11 @@
 
 <div class="frame_legend">
     <div class="dot1">
-        <div class="t1">Strategic element</div>
+        <div class="t1">Supporting/Uncategorised element</div>
+    </div>
+
+    <div class="dot4">
+        <div class="t4">Operational element</div>
     </div>
 
     <div class="dot2">
@@ -31,12 +35,9 @@
     </div>
         
     <div class="dot3">
-        <div class="t3">Operational element</div>
-    </div>
-    
-    <div class="dot4">
-        <div class="t4">Supporting/Uncategorised element</div>
+        <div class="t3">Strategic element</div>
     </div>    
+        
 </div>
 
 <aside>
@@ -53,8 +54,8 @@
         The elements in the data domain may have specific interdependencies, which are shown in the form of
         connections/links between elements. The interactive visualisation shows elements and their connections with the following functionality:
         
-        <ul><li>Hovering the mouse over an element reveals a tooltip with more information about that element.</li>
-            <li>Clicking on an element toggles on/off all its related elements and links.</li>
+        <ul><li>Hovering the mouse over an element toggles on/off all its related elements and links.</li>
+            <li>Clicking on an element reveals a tooltip with more information about that element.</li>
             <li>Clicking and dragging elements to a new position in case of (partially) overlapping text or elements.</li>
             <li>Zooming in/out to specific section of the visualisation using the mouse-wheel.</li>
             <li>Panning the visualisation horizontally and vertically using the mouse.</li>
@@ -63,10 +64,11 @@
     <h3>Sources</h3>  
     <ul>
         <li><a rel="DAMA-NL" href="https://dama-nl.org/werkgroepen/werkgroep-datakwaliteit/" target="_blank">Website DAMA NL Working Group for Data Quality</a></li>
-        <li><a rel="DAMA-SOURCE" href="https://www.dama-nl.org/wp-content/uploads/2022/05/A-Management-System-for-Data-Quality-DAMA-NL-v2.2-EN-1.pdf" target="_blank">White paper: A Management System for Data Quality, May 2022</a></li>    
+        <li><a rel="DAMA-SOURCE" href="https://www.dama-nl.org/wp-content/uploads/2022/05/A-Management-System-for-Data-Quality-DAMA-NL-v2.2-EN-1.pdf" target="_blank">White paper: A Management System for Data Quality, May 2022</a></li>
+        <li><a rel="Obsidian" href="https://publish.obsidian.md/dama-nl-dqms/Data+Quality+General/Data+Quality+Management+System" target="_blank">DAMA NL Data Quality Management System in Obsidian</li>
     </ul>
     <h3>Version</h3>
-    <p>1.3</p>    
+    <p>1.4</p>    
     <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
       <br/>
       <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>.</p>
@@ -85,7 +87,7 @@
 // Set the dimensions and margins of the graph:
 var margin = {top: 10, right: 10, bottom: 100, left: -20},
       width = 1100,
-      height = 620;
+      height = 700; //was: 620
         
 //Set up the colour scale
 var color = d3.scale.category20();
@@ -115,7 +117,7 @@ var svg = d3.select("#chart").append("svg")
     .attr("style", "outline: thin solid lightgrey;")  
 
     //--- zoom behaviour: ----
-    .call(d3.behavior.zoom().scaleExtent([-1, 2]).on("zoom", function () {
+    .call(d3.behavior.zoom().scaleExtent([0.5, 3]).on("zoom", function () {
     svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
   }))
   .append("g") //consider all elements as grouped
@@ -152,7 +154,7 @@ var node = svg.selectAll(".node")
 })
 
 //Mouse event: mouseover for the nodes:
-.on("mouseover", function(d) {
+.on("click", function(d) {
     
     // Check if there is a wiki link for the node: 
     var str_link_status
@@ -174,7 +176,8 @@ var node = svg.selectAll(".node")
                 .style("opacity", 0);
                 div.transition()
 				.duration(3000)
-				.style("opacity", .9);
+				.style("opacity", .9)
+                .style('pointer-events', 'visible');
 			
             div .html(
                 "<table>" +                    
@@ -201,11 +204,12 @@ var node = svg.selectAll(".node")
 				.style("top", (d3.event.pageY + 15) + "px")   //Adjust vertical position of tooltip: +8px    
 			})
             .call(force.drag)
-            .on('click', connectedNodes)
+            .on('mouseover', connectedNodes)
 
 //Mouse event: mouseleave for the nodes:
 .on("mouseleave", function() {
-    div.transition().delay(3000).duration(2000).style("opacity", 0);
+    div.transition().delay(3000).duration(2000).style("opacity", 0)
+    .style('pointer-events', 'none');
     
     // Decrease radius of node to original value of 8 px:
     d3.select(this).attr("r",8)
@@ -284,6 +288,8 @@ function neighboring(a, b) {
 //Determine the names of the nodes to keep:
 
 function connectedNodes() {
+
+    d3.select(this).attr("r",10)
 
     if (toggle == 0) {
         //Reduce the opacity of all but the neighbouring nodes
