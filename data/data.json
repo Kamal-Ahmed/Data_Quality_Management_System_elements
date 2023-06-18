@@ -110,7 +110,7 @@
 {"name":"Critical Data Element","group":4,"category":"Operational","subcategory":"Metadata","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Critical+Data+Elements"},
 {"name":"Data Architecture","group":3,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Architecture"},
 {"name":"Data Cleansing","group":4,"category":"Operational","subcategory":"Data Quality Improvement","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Cleansing"},
-{"name":"Data Issue","group":4,"category":"Operational","subcategory":"Data Quality Improvement","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Issue"},
+{"name":"Data Issue","group":4,"category":"Operational","subcategory":"Data Quality Improvement","wiki_link":"-"},
 {"name":"Data Lineage","group":4,"category":"Operational","subcategory":"Metadata","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Lineage"},
 {"name":"Data Process","group":2,"category":"Tactical","subcategory":"Processes","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Process"},
 {"name":"Data Quality Communication","group":2,"category":"Tactical","subcategory":"Stakeholders","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Communication"},
