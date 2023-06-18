@@ -115,7 +115,7 @@
 {"name":"Data Quality Communication","group":2,"category":"Tactical","subcategory":"Stakeholders","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Communication"},
 {"name":"Data Quality Monitoring","group":3,"category":"Uncategorised","subcategory":"Data Quality Improvement","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Monitoring"},
 {"name":"Data Quality Objective","group":1,"category":"Strategic","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Objectives"},
-{"name":"Data Quality Policy","group":1,"category":"Strategic","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Policy"},
+{"name":"Data Quality Policy","group":0,"category":"Strategic","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Policy"},
 {"name":"Data Quality Requirement","group":3,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Requirements"},
 {"name":"Data Quality Risk Analysis","group":2,"category":"Tactical","subcategory":"Analysis","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Risk+Analysis"},
 {"name":"Data Quality Rule","group":3,"category":"Uncategorised","subcategory":"Metadata","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Management+System/Data+Quality+Rule"},
