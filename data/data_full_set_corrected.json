@@ -50,7 +50,7 @@
 {"name":"Data Protection Officer","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Data+Protection+Officer"},
 {"name":"Data Quality Analyst","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Data+Quality+Analyst"},
 {"name":"Data Steward","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Data+Steward"},
-{"name":"Data Supplier","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Data+Supplier"},
+{"name":"Data Supplier Role","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Data+Supplier"},
 {"name":"Data User","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Data+User"},
 {"name":"Stakeholder","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Management+Role/Stakeholder"},
 {"name":"Ability to Represent Null Values","group":4,"category":"Uncategorised","subcategory":"-","wiki_link":"https://publish.obsidian.md/dama-nl-dqms/Data+Quality+Dimension/Ability+To+Represent+Null+Values"},
@@ -459,6 +459,8 @@
 {"source":103,"target":104,"value":1},
 {"source":103,"target":127,"value":1},
 {"source":103,"target":118,"value":1},
+
+
 {"source":106,"target":124,"value":1},
 {"source":106,"target":115,"value":1},
 {"source":106,"target":125,"value":1},
@@ -474,6 +476,7 @@
 {"source":107,"target":109,"value":1},
 {"source":107,"target":111,"value":1},
 {"source":107,"target":114,"value":1},
+
 {"source":109,"target":110,"value":1},
 {"source":109,"target":99,"value":1},
 {"source":109,"target":55,"value":1},
@@ -503,6 +506,7 @@
 {"source":111,"target":126,"value":1},
 {"source":111,"target":107,"value":1},
 {"source":111,"target":110,"value":1},
+
 {"source":113,"target":101,"value":1},
 {"source":114,"target":107,"value":1},
 {"source":114,"target":110,"value":1},
@@ -510,6 +514,7 @@
 {"source":114,"target":99,"value":1},
 {"source":114,"target":127,"value":1},
 {"source":114,"target":120,"value":1},
+
 {"source":116,"target":101,"value":1},
 {"source":116,"target":115,"value":1},
 {"source":116,"target":120,"value":1},
@@ -542,6 +547,8 @@
 {"source":122,"target":116,"value":1},
 {"source":122,"target":110,"value":1},
 {"source":122,"target":104,"value":1},
+
+
 {"source":125,"target":116,"value":1},
 {"source":125,"target":115,"value":1},
 {"source":125,"target":123,"value":1},
@@ -581,8 +588,10 @@
 {"source":128,"target":46,"value":1},
 {"source":128,"target":49,"value":1},
 {"source":128,"target":50,"value":1},
+
 {"source":130,"target":16,"value":1},
 {"source":130,"target":4,"value":1},
 {"source":130,"target":5,"value":1}
+
 ]
     }
