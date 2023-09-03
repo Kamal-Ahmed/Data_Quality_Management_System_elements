@@ -7,10 +7,11 @@ of each of these elements is then briefly explained. The aim of this is to make 
 Source: https://www.dama-nl.org/wp-content/uploads/2022/05/A-Management-System-for-Data-Quality-DAMA-NL-v2.2-EN-1.pdf
 
 A Data Quality Management System consists of topics, which we have named "elements". Elements can be categorised as follows:
-1. strategic,
-2. tactical,
-3. operational, or
-4. uncategorised.
+1. Objective
+2. Strategic,
+3. Tactical,
+4. Operational, or
+5. uncategorised.
 
 ## Instructions for interacting with diagram
 * Hovering the mouse over a circle (node) reveals information about that node.
