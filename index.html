@@ -23,7 +23,7 @@
 
 <div class="frame_legend">
     <div class="dot1">
-        <div class="t1">Supporting element</div>
+        <div class="t1">Supporting/Uncategorised element</div>
     </div>
 
     <div class="dot4">
@@ -36,7 +36,11 @@
         
     <div class="dot3">
         <div class="t3">Strategic element</div>
-    </div>    
+    </div>
+    
+    <div class="dot5">
+        <div class="t5">Objective element</div>
+    </div>
         
 </div>
 
@@ -65,10 +69,11 @@
     <ul>
         <li><a rel="DAMA-NL" href="https://dama-nl.org/werkgroepen/werkgroep-datakwaliteit/" target="_blank">Website DAMA NL Working Group for Data Quality</a></li>
         <li><a rel="DAMA-SOURCE" href="https://www.dama-nl.org/wp-content/uploads/2022/05/A-Management-System-for-Data-Quality-DAMA-NL-v2.2-EN-1.pdf" target="_blank">White paper: A Management System for Data Quality, May 2022</a></li>
-        <li><a rel="Obsidian" href="https://publish.obsidian.md/dama-nl-dqms/Data+Quality+General/Data+Quality+Management+System" target="_blank">DAMA NL Data Quality Management System in Obsidian</li>
+        <li><a rel="Wiki" href="https://datamanagement.wiki/start" target="_blank">DAMA NL Data Quality Management System in Wiki</li>
+        <li><a rel="DQMSIMAGE" href="https://datamanagement.wiki/_detail/data_quality_management_system/2307_metromodel_dqms.png?id=data_quality_general%3Adata_quality_management_system" target="_blank">DQMS metromodel visual</li>
     </ul>
     <h3>Version</h3>
-    <p>1.4</p>    
+    <p>1.5</p>    
     <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
       <br/>
       <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>.</p>
@@ -90,7 +95,9 @@ var margin = {top: 10, right: 10, bottom: 100, left: -20},
       height = 700; //was: 620
         
 //Set up the colour scale
-var color = d3.scale.category20();
+//var color = d3.scale.category20();
+// grey, light blue, darker blue, darkest blue, dark orange:
+const color = ["#999","#9DC3E6", "#5B9BD5", "#1F4E79", "#FF8E1D"];
 
 //Set up the force layout for the parameters gravity, charge and link distance.
 //Experiment with (combinations of) values for these parameters to best display the graph on the page.
@@ -105,8 +112,9 @@ var force = d3.layout.force()
 		d3.event.sourceEvent.stopPropagation();
       });
 
-//Append a SVG to the body of the html page. Assign this SVG as an object to svg
-var svg = d3.select("#chart").append("svg")
+    
+    //Append a SVG to the body of the html page. Assign this SVG as an object to svg
+    var svg = d3.select("#chart").append("svg")
         
     .attr("width", width)
     .attr("height", height)
@@ -115,15 +123,16 @@ var svg = d3.select("#chart").append("svg")
             "translate(" +  margin.left + "," + margin.top + ")")
 
     .attr("style", "outline: thin solid lightgrey;")  
-
+        
     //--- zoom behaviour: ----
     .call(d3.behavior.zoom().scaleExtent([0.5, 3]).on("zoom", function () {
     svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
   }))
   .append("g") //consider all elements as grouped
- 
+  
 
-  d3.json("https://raw.githubusercontent.com/Kamal-Ahmed/Kamal-Ahmed.github.io/main/data/data.json", function (error, graph) {
+  
+  d3.json("https://raw.githubusercontent.com/Kamal-Ahmed/Kamal-Ahmed.github.io/main/data/Data_latest.json", function (error, graph) {
             
         if (error) {
             return console.warn(error);
@@ -150,12 +159,15 @@ var node = svg.selectAll(".node")
     .attr("class", "node")    
     .attr("r", 8)
     .style("fill", function (d) {
-    return color(d.group);
+    return color[d.group];
 })
 
 //Mouse event: mouseover for the nodes:
 .on("click", function(d) {
     
+    //Ensure the click event is not started when dragging and moving a node to another position:
+    if (d3.event.defaultPrevented) return;
+
     // Check if there is a wiki link for the node: 
     var str_link_status
     
